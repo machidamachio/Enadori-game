@@ -24,5 +24,6 @@ public class Judge : MonoBehaviour
             Instantiate(effect.gameObject, other.transform.position, Quaternion.identity);// エフェクトを表示する
             Destroy(other.gameObject);// ノートを消す
         }
+
     }
 }
