@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 86389505}
   - component: {fileID: 86389504}
   - component: {fileID: 86389503}
-  - component: {fileID: 86389502}
+  - component: {fileID: 86389508}
   m_Layer: 0
   m_Name: "The Lazy Judge (\u53F3)"
   m_TagString: The Lazy Judge
@@ -144,21 +144,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &86389502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86389501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 946ed579d6d7b4fa19a179882abccac7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effect1: {fileID: 0}
-  effect2: {fileID: 0}
-  effect3: {fileID: 0}
 --- !u!54 &86389503
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -272,6 +257,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86389508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86389501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244793f0cc64746c48ff78e916cb70e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect1: {fileID: 2453154344818692580, guid: 5d5bac1a6033241d7a3d4dd59bdaa1f3, type: 3}
+  effect2: {fileID: 2453154344818692580, guid: 8c289afe4d77a41829429c7e82b4800d, type: 3}
+  effect3: {fileID: 2453154344818692580, guid: a55ef6dab532f44a4962d59747affb9b, type: 3}
 --- !u!1001 &405387063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -533,6 +533,7 @@ GameObject:
   - component: {fileID: 1749423218}
   - component: {fileID: 1749423217}
   - component: {fileID: 1749423216}
+  - component: {fileID: 1749423222}
   m_Layer: 0
   m_Name: "The Lazy Judge (\u5DE6)"
   m_TagString: The Lazy Judge
@@ -668,6 +669,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1749423222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749423215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ceb1e6f9636a4401b672c011440bebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes:
+  - {fileID: 5168133673901510912, guid: e670cba5fe462417881847275ba6597b, type: 3}
+  - {fileID: 6591291439008607055, guid: 7fcc1601ce20b49328817fb4579e037c, type: 3}
+  - {fileID: 3263798136594915563, guid: c619187ac818d41e78e2a944bbc4eb6f, type: 3}
+  notePos:
+  - {x: -11.38, y: -7, z: 200}
+  - {x: -0.08, y: -7, z: 200}
+  - {x: 11.1, y: -7, z: 200}
 --- !u!1 &1756413370
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,12 +832,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1756413370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 946ed579d6d7b4fa19a179882abccac7, type: 3}
+  m_Script: {fileID: 11500000, guid: f502a2379ddf54ce693f313a420ce5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effect1: {fileID: 0}
-  effect2: {fileID: 0}
-  effect3: {fileID: 0}
+  effect1: {fileID: 2453154344818692580, guid: 5d5bac1a6033241d7a3d4dd59bdaa1f3, type: 3}
+  effect2: {fileID: 2453154344818692580, guid: 8c289afe4d77a41829429c7e82b4800d, type: 3}
+  effect3: {fileID: 2453154344818692580, guid: a55ef6dab532f44a4962d59747affb9b, type: 3}
 --- !u!1 &1842886793
 GameObject:
   m_ObjectHideFlags: 0

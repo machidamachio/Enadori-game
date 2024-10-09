@@ -9,7 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Judge : MonoBehaviour
+public class Judge1 : MonoBehaviour
 {
     public GameObject effect1;
     public GameObject effect2;
@@ -27,17 +27,17 @@ public class Judge : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)// オブジェクトに触れている時の処理
     {
-        if (other.gameObject.tag == "Note1" && Input.GetKeyDown(KeyCode.V))// もしNote1に触れたかつFキーがおされたなら、
+        if (other.gameObject.tag == "Note1" && Input.GetKeyDown(KeyCode.B))// もしNote1に触れたかつFキーがおされたなら、
         {
             Instantiate(effect1.gameObject, other.transform.position, Quaternion.identity);// エフェクトを表示する
             Destroy(other.gameObject);// ノートを消す
         }
-        if (other.gameObject.tag == "Note2" && Input.GetKeyDown(KeyCode.V))// もしNote1に触れたかつFキーがおされたなら、
+        if (other.gameObject.tag == "Note2" && Input.GetKeyDown(KeyCode.B))// もしNote1に触れたかつFキーがおされたなら、
         {
             Instantiate(effect2.gameObject, other.transform.position, Quaternion.identity);// エフェクトを表示する
             Destroy(other.gameObject);// ノートを消す
         }
-        if (other.gameObject.tag == "Note3" && Input.GetKeyDown(KeyCode.V))// もしNote1に触れたかつFキーがおされたなら、
+        if (other.gameObject.tag == "Note3" && Input.GetKeyDown(KeyCode.B))// もしNote1に触れたかつFキーがおされたなら、
         {
             Instantiate(effect3.gameObject, other.transform.position, Quaternion.identity);// エフェクトを表示する
             Destroy(other.gameObject);// ノートを消す
